@@ -1,0 +1,23 @@
+{
+  "name": "ald2uma",
+  "version": "1.0.0",
+  "description": "阿拉丁小程序自定义事件适配器",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeng/ald2uma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umeng/ald2uma/issues"
+  },
+  "homepage": "https://github.com/umeng/ald2uma#readme",
+  "dependencies": {
+    "umtrack-qq-game": "^2.4.11",
+    "umtrack-wx-game": "^2.4.11"
+  }
+}
