@@ -1,6 +1,6 @@
 import { aop } from './util';
 /**
- * 自动hook阿拉丁
+ * 自动适配阿拉丁
  * @param {object} context 当前小程序顶级对象
  * @param {object} uma 友盟sdk的uma对象
  */
