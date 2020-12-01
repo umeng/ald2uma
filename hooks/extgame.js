@@ -48,3 +48,4 @@ uma.level = {
         uma.trackEvent([PREFIX,LEVEL,ON_SET].join(JOINCHAR),data);
     }
 }
+export default uma;
