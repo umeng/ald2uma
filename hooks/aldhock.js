@@ -3,6 +3,7 @@ import { aop } from "./util";
  * 自动适配阿拉丁
  * @param {object} context 当前小程序顶级对象
  * @param {object} uma 友盟sdk的uma对象
+ * @returns {arrary}  [context, uma]
  */
 const aldOnShareAppMessage = "aldOnShareAppMessage";
 const aldShareAppMessage = "aldShareAppMessage";
