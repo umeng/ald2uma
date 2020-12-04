@@ -32,14 +32,14 @@ function _flatData(data){
 uma.revenue = function (data) {
   uma.trackEvent([PREFIX, REVENUE, data.group].join(JOINCHAR), _flatData(data));
 };
-var stagestarttime = 0;
+var stageStartTime = 0;
 uma.stage = {
   onStart: function (data) {
-    stagestarttime = Date.now();
+    stageStartTime = Date.now();
     uma.trackEvent(STAGE_START, _flatData(data));
   },
   onEnd: function (data) {
-    data._um_sdu = (stagestarttime !== 0 ? Date.now() - stagestarttime : 0);
+    data._um_sdu = (stageStartTime !== 0 ? Date.now() - stageStartTime : 0);
     uma.trackEvent([PREFIX, STAGE, ON_END, data.event].join(JOINCHAR), _flatData(data));
   },
   onRunning: function (data) {
