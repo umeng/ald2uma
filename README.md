@@ -13,3 +13,8 @@ import ald2uma from 'ald2uma';
  */
 ald2uma.hookAld(wx,ald2uma.uma);
 ```
+## 注意事项 
+### 两者共存
+代码内自动检测是否包含阿拉丁sdk,如果包含会劫持阿拉丁sdk，以实现自动适配，需要修改阿拉丁sdk的源码,将writable设置为true,以方便sdk劫持
+### 直接替换
+直接使用本插件替换阿拉丁sdk，项目源码中调用方法会自动转换到友盟的sdk
