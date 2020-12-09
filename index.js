@@ -1,4 +1,4 @@
-import uma from './hooks/extgame';
+import uma from "umtrack-wx-game";
 import { hookAld } from './hooks/aldhook';
 
 module.exports = {
