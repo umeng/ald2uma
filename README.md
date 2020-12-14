@@ -1,5 +1,7 @@
 # ald2uma
 阿拉丁小游戏适配器
+
+首先升级友盟小游戏sdk >=2.5.2;
 ```sh
 npm install ald2uma --save
 ```
