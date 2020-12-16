@@ -2,11 +2,9 @@
 阿拉丁小游戏适配器
 
 首先升级友盟小游戏sdk >=2.5.2;
-```sh
-npm install ald2uma --save
-```
+
 ```js
-import ald2uma from 'ald2uma';
+import ald2uma from './index.js';
 /**
  * 自动适配阿拉丁
  * @param {object} context 当前小游戏顶级对象

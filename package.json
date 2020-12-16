@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/umeng/ald2uma#readme",
   "dependencies": {
-    "umtrack-qq-game": "^2.5.1",
-    "umtrack-wx-game": "^2.5.1"
+    "umtrack-qq-game": "^2.5.2",
+    "umtrack-wx-game": "^2.5.2"
   }
 }
